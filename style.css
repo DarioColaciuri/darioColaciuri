@@ -80,7 +80,9 @@ body {
   font-size: 2rem;
   color: #ffffff;
   margin-right: 10px;
+  font-weight: 600;
 }
+
 
 .navigation ul {
   display: flex;
@@ -98,6 +100,7 @@ body {
   padding: 6px 2px;
   border-radius: 20px;
   font-weight: 600;
+  color: #bebebe;
 }
 
 .navigation a:hover,
@@ -432,19 +435,20 @@ margin-left: 20px;
   padding-bottom: 50px;
 }
 
-#contact form {
+/* ESTO ERA SIN BOOTSTRAP */
+/* #contact form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1px;
-}
+} */
 
-#contact input {
+/* #contact input {
   width: 316px;
   height: 30px;
-}
+} */
 
-.enviar {
+/* .enviar {
   color: #000000;
 }
 
@@ -452,7 +456,7 @@ margin-left: 20px;
   color: #e4e074;
   background-color: #171515;
   border: none;
-}
+} */
 
 .contactcontainer {
   display: flex;
@@ -460,6 +464,13 @@ margin-left: 20px;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.containerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
 }
 
 
