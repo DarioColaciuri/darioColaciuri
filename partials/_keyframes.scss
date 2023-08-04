@@ -1,0 +1,35 @@
+@keyframes slideDown {
+    from {
+      transform: translateY(-320px);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideLeft {
+    from {
+      transform: translateX(120%);
+    }
+  
+    to {
+      transform: translateX(-120%);
+    }
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(-120%);
+    }
+  
+    to {
+      transform: translateX(120%);
+    }
+  }
+  
+  @keyframes blink {
+    50% {opacity: 1}
+    49% {opacity: 0;}
+    0% {opacity: 0;}
+  }

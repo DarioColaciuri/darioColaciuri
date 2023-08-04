@@ -1,0 +1,215 @@
+@media screen and (max-width: 1100px) {
+ 
+    #footer {
+      margin: 0;
+      padding: 0;
+    
+      img {
+        width: 60px;
+      }
+    }
+  
+    .container ul li {
+      display: block;
+      height: 60px;
+      width: 60px;
+      background: #171515;
+      border-radius: 50%;
+      cursor: default;
+      transition: .5s;
+      z-index: 1;
+      flex-wrap: wrap;
+    }
+  
+    .footerIndex ul {
+      margin-top: 210px;
+    }
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 900px) {
+    
+    #header {
+      justify-content: space-between;
+    }
+  
+    .logo {
+      font-size: 2rem;
+      margin-right: 0px;
+    }
+    
+    .fondo {
+      height: 55vh;
+    }
+  
+    .moviles {
+      height: 55vh;
+    }
+  
+    #moto {
+      width: 700px;
+    }
+  
+    #bus {
+      width: 700px;
+    }
+  
+    #footer {
+      margin: 0;
+      padding: 0;
+    }
+  
+  
+    /* ABOUT */
+  
+    #about {
+      flex-wrap: wrap;
+    }
+  
+    /* SERVICE */
+  
+    #service .cartas {
+      flex-wrap: wrap;
+    }
+  
+    #service .carta {
+      flex-grow: 1;
+    }
+  
+  
+  
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 615px) {
+   
+  
+    #header {
+      .abrir,
+      .cerrar {
+        display: block;
+      }
+    }
+  
+    .navigation {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      opacity: 0;
+      visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      box-shadow: 0 0 0 100vmax rgba(0,0,0,0.5);
+      border-radius: 10%;
+      background-color: rgba(0,0,0,0.8);
+    }
+  
+    #header {
+      justify-content: space-between;
+    
+      img {
+        width: 30px;
+    
+        &:hover {
+          box-shadow: 0px 0px 20px rgba(170, 162, 44, 0.5);
+          border-radius: 35%;
+        }
+      }
+    
+      button {
+        padding-top: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-radius: 35%;
+        border: none;
+        background-color: transparent;
+        transition: all 0.5s;
+      }
+    }
+    
+  
+    .navigation.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    #header button.invisible {
+      opacity: 0;
+      visibility: hidden;
+    }
+  
+    .navigation ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navigation li {
+      padding: 9px;
+    }
+  
+    /* ABOUT */
+  
+  
+  
+  
+    /* MUSIC */
+  
+   #music {
+    .containerMusic {
+      .grilla {
+        display: flex;
+        flex-direction: column;
+  
+        .textoYoutube {
+          .youtubeHorizontal {
+            display: flex;
+          }
+       }
+
+       .textoSpotify {
+        .spotifyHorizontal {
+          display: flex;
+        }
+       }
+      }
+    }
+   }
+   
+    .youtubeVertical {
+      display: none;
+    }
+   
+    .spotifyVertical {
+      display: none;
+    }
+  
+  
+  
+    /* FOOTER */
+  
+    .footerIndex {
+        .container {
+          background-image: url("../media/footer.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          /* background-position: center; */
+  
+            ul {
+              flex-direction: column;
+              align-items: center;
+              gap: 10px;
+              padding-top: 0px;
+              margin-top: 9em;
+            }
+        }
+    }
+  }

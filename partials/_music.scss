@@ -1,0 +1,114 @@
+#music {
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    padding-top: 100px;
+  
+      a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: #bebebe;
+        padding: 6px 2px;
+        border-radius: 20px;
+        margin: 0 10px;
+        font-weight: 600;
+        transition: all 0.5s;
+        cursor: default;
+  
+        &:hover {
+          background: #fffb91;
+          color: #000000;
+        }
+      }
+  
+      .containerMusic {
+        ul {
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-bottom: 20px;
+          list-style: none;
+        }
+  
+        .grilla {
+          display: grid;
+          grid-template-columns: 1fr  1fr 1 fr 1;
+          grid-template-rows: 1fr 1fr;
+        
+          grid-template-areas: 
+          "textoYoutube youtube youtube"
+          "spotify spotify textoSpotify";
+  
+            .textoYoutube {
+              grid-area: textoYoutube;
+              background-color: #ff0000;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 50px;
+              margin: 10px;
+              transition: all 0.5s;
+            
+              &:hover {
+                background-color: #a10c0c;
+              }
+            }
+            
+            .youtube {
+              grid-area: youtube;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 1rem;
+              flex-wrap: wrap;
+            }
+
+            .youtubeVertical, .spotifyVertical {
+              transition: all 1s;
+            }
+            
+            .youtubeHorizontal {
+              display: none;
+              transition: all 1s;
+            }
+
+            .spotifyHorizontal {
+              @extend .youtubeHorizontal;
+            }
+            
+            .textoSpotify {
+              grid-area: textoSpotify;
+              background-color: #1DB954;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border-radius: 50px;
+              margin: 10px;
+              transition: all 0.5s;
+            
+              &:hover {
+                background-color: #1e703a;
+
+              }
+            }
+            
+            .spotify {
+              grid-area: spotify;
+              display: flex;
+              flex-direction: row;
+              gap: 1rem;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+            }
+            
+            .youtubeHorizontal:hover, .youtubeVertical:hover, .spotifyHorizontal:hover, .spotifyVertical:hover {
+              filter: invert(1);
+              transform: scale(1.1)
+            }
+        }
+      }
+  }
+

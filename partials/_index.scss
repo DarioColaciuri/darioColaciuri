@@ -1,0 +1,51 @@
+#hero {
+    padding-top: 270px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1;
+  
+      #iluminado {
+        color: #fffb91a6;
+        font-size: 4vw;
+        text-shadow: 4px 0 rgb(24, 24, 24), -4px 0 rgb(24, 24, 24), 0 4px rgb(24, 24, 24), 0 -4px rgb(24, 24, 24), 2px 2px rgb(24, 24, 24), -2px -2px rgb(24, 24, 24), 2px -2px rgb(24, 24, 24), -2px 2px rgb(24, 24, 24);
+        animation: slideDown 1s ease-in;
+        position: relative;
+        z-index: 999;
+        transition: all 0.5s;
+      
+        &:hover {
+          color: #e4e074;
+          text-shadow: 2px 0 rgb(24, 24, 24), -2px 0 rgb(24, 24, 24), 0 2px rgb(24, 24, 24), 0 -2px rgb(24, 24, 24), 1px 1px rgb(24, 24, 24), -1px -1px rgb(24, 24, 24), 1px -1px rgb(24, 24, 24), -1px 1px rgb(24, 24, 24), 0 0 20px #d0d67ea1;
+        }
+      }
+  
+      .moviles {
+        position: absolute;
+        width: 100%;
+      
+        &.left {
+          animation: slideLeft 8s ease-in infinite;
+        }
+      
+        &.right {
+          animation: slideRight 6s ease-in infinite;
+        }
+      }
+  
+      .fondo {
+        position: absolute;
+        width: 100%;
+      }
+      
+      #blink {
+        animation: blink infinite;
+      }
+  }
+  
+  .footerIndex {
+    margin-top: 300px;
+  }

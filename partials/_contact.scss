@@ -1,0 +1,57 @@
+/* ESTO ERA SIN BOOTSTRAP */
+/* #contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+} */
+
+/* #contact input {
+  width: 316px;
+  height: 30px;
+} */
+
+/* .enviar {
+  color: #000000;
+}
+
+.enviar:hover {
+  color: #e4e074;
+  background-color: #171515;
+  border: none;
+} */
+
+#contact {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  
+    .contactcontainer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+  
+        .cara {
+          width: 300px;
+          transition: all 0.5s;
+  
+          &:hover {
+            transform: rotate(-5deg);
+            filter: drop-shadow(30px 60px 30px rgb(228, 224, 116));
+          }
+        }
+  
+        .containerForm {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1em;
+        }
+    }
+  }

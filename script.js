@@ -1,5 +1,3 @@
-console. log("Hello world!");
-
 const blink = document.querySelector('#blink');
 
 function duracionAleatoria() {

@@ -1,0 +1,45 @@
+#footer {
+    /* margin: 55px; */
+    margin-bottom: 0px;
+  
+    img {
+      width: 30px;
+    }
+  }
+  
+  .container ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+  
+    li {
+      display: block;
+      height: 30px;
+      width: 30px;
+      background: #171515;
+      border-radius: 50%;
+      cursor: default;
+      transition: .5s;
+      z-index: 1;
+  
+      &:nth-child(1):hover {
+        box-shadow: 0 0 15px #b92499;
+      }
+  
+      &:nth-child(2):hover {
+        box-shadow: 0 0 15px #1DA1F2;
+      }
+  
+      &:nth-child(3):hover {
+        box-shadow: 0 0 15px #b61bd4;
+      }
+  
+      &:nth-child(4):hover {
+        box-shadow: 0 0 15px #2867B2;
+      }
+  
+      &:nth-child(5):hover {
+        box-shadow: 0 0 15px #ff0000;
+      }
+    }
+  }
