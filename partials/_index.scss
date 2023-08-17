@@ -16,6 +16,7 @@
         position: relative;
         z-index: 999;
         transition: all 0.5s;
+        cursor: default;
       
         &:hover {
           color: #e4e074;
