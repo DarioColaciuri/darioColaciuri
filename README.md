@@ -9,6 +9,7 @@
 <p align="left">I am a passionate web developer with experience in React, Javascript, CSS and HTML.<br> I am currently developing my skills in Next.js, Typescript, Vite, Astro and Tailwind.<br>I live in Argentina and i'm looking for remote work opportunities that give me the possibility of helping and being helped in the programming environment.</p>
 
 ###
+<br/>
 
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
