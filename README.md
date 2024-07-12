@@ -6,7 +6,9 @@
 
 ###
 
-<p align="left">I am a passionate web developer with experience in React, Javascript, CSS and HTML.<br> I am currently developing my skills in Next.js, Typescript, Vite, Astro and Tailwind.<br>I live in Argentina and i'm looking for remote work opportunities that give me the possibility of helping and being helped in the programming environment.</p>
+<p align="left">I am a passionate web developer with experience in Nextjs, React, Astro, Typescript, Express, MongoDB, Firebase, Javascript, CSS and HTML. 
+I live in Argentina and i'm looking for remote work opportunities that give me the possibility of helping and being helped in the programming environment.
+I have also been a music teacher for 15 years, this shows my passion for pedagogy.</p>
 
 ###
 <br/>
